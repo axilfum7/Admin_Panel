@@ -1,3 +1,5 @@
 import PATH from "./Path";
+import Input from "./Input";
+import Loading from "./Loading";
 
-export {PATH}
+export {PATH, Input, Loading}
