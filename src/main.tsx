@@ -7,7 +7,7 @@ import { TokenContext } from './context/Context.tsx'
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
   <TokenContext>
-      <App />
+    <App />
   </TokenContext>
 </BrowserRouter>
 )
