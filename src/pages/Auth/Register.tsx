@@ -2,7 +2,11 @@ import {type SubmitEvent, type FC } from "react";
 import Input from "../../components/Input";
 import Button from "../../components/Button";
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 import { Loading, PATH } from "../../components";
+=======
+import { PATH, Loading } from "../../components";
+>>>>>>> 4f14c18 (done)
 import axios from "axios"
 import { instance } from "../../Hooks";
 

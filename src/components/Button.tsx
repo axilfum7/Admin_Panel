@@ -4,7 +4,7 @@ interface ButtonType {
     title:string,
     type:"button" | "submit",
     extraClass?:string
-    children:ReactNode
+    children?:ReactNode
 }
 const Button:FC<ButtonType> = ({title, type, extraClass,children}) => {
   return (

@@ -7,7 +7,11 @@ import { TokenContext } from './context/Context.tsx'
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
   <TokenContext>
+<<<<<<< HEAD
     <App />
+=======
+      <App />
+>>>>>>> 4f14c18 (done)
   </TokenContext>
 </BrowserRouter>
 )
