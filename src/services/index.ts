@@ -1,5 +1,5 @@
 import toast from "react-hot-toast"
-import { instance } from "../hooks"
+import { instance } from "../Hooks"
 import { PATH } from "../components"
 import type { RegisterDataType } from "../pages/Auth/Register"
 import type { NavigateFunction } from "react-router-dom"
